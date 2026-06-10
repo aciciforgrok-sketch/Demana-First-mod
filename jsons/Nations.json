@@ -2,16 +2,16 @@
 	{
 		"name": "Great Britain",
 		"leaderName": "Shon",
-		"adjective": ["Conquer"],
+		"adjective": ["British"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Thou shall rest thy feet",
 		"startIntroPart2": "hmm, a new colony to coloni- i mean befriend",
 		
-		"declaringWar": "Prepare to be colonize",
-		"attacked": "You want to play? Very funny indead.",
-		"defeated": "its time for us..",
+		"declaringWar": "Prepare to be colonized",
+		"attacked": "You want to play? Very funny indeed.",
+		"defeated": "It's time for us...",
 		"introduction": "A new colony!?.",
 		
 		"neutralHello": "Hello Barbarian",
@@ -31,7 +31,7 @@
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
+		"uniques": ["Allows purchasing of tiles", "+[1] Sight for land Military units"],
 		"cities": ["Wessex","Arsecton","Old rome","Imphet","Old persia","Old Macedonia","Great old rome","old sparta","Trasicans",
 			"Phulnoith","Creved","irqen","grax","Threqals","Bhilmuk","Mazea","Zomirs","Drorkrex","Honkrath",
 			"Zulgra","Vahars","Crindith","Raavraes","Bhoknais","Qho'Qru","Dateatz","Elnad","Izien","ol'Ell",
