@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Colonizer officer",
+		"name": "Knight Legionaries",
 		"unitType": "Mounted",
 		"uniqueTo": "Great Britain",
 		"replaces": "Cavalry",
@@ -8,19 +8,95 @@
 		"strength": 79,
 		"cost": 600,
 		"requiredTech": "Rifling",
-		"requiredResource": "Horses",
-		"promotions": ["Blitz", "Accuracy III"]
+		"requiredResource": "Iron",
+		"promotions": ["Blitz", "Formation II", "Accuracy III"]
 	},
 	{
-		"name": "Elite British soldiers",
+		"name": "Great Knights",
 		"unitType": "Gunpowder",
 		"uniqueTo": "Great Britain",
 		"replaces": "Rifleman",
-		"movement": 3,
-		"strength": 55,
-		"cost": 480,
+		"movement": 4,
+		"strength": 85,
+		"cost": 1580,
 		"requiredTech": "Rifling",
-		"requiredResource": "Horses",
+		"requiredResource": "Iron",
 		"promotions": ["Blitz", "Accuracy III", "Yamato", "Agoge", "Medic II", "Crusader"]
+	},
+	{
+		"name": "Landsknecht Vanguard",
+		"unitType": "Melee",
+		"uniqueTo": "Great Britain",
+		"replaces": "Pikeman",
+		"movement": 2,
+		"strength": 22,
+		"cost": 110,
+		"requiredTech": "Civil Service",
+		"promotions": ["Shock I"],
+		"uniques": ["Earns [100]% of defeated units' [Strength] as [Gold]"]
+	},
+	{
+		"name": "Teutonic Crusader",
+		"unitType": "Melee",
+		"uniqueTo": "Great Britain",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 28,
+		"cost": 160,
+		"requiredTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Drill I", "Crusader"],
+		"uniques": ["[+20]% Strength <when attacking>"]
+	},
+	{
+		"name": "Black Brunswickers",
+		"unitType": "Mounted",
+		"uniqueTo": "Great Britain",
+		"replaces": "Lancer",
+		"movement": 4,
+		"strength": 34,
+		"cost": 200,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"promotions": ["Blitz"],
+		"uniques": ["Generates [Great General] [50]% faster"]
+	},
+	{
+		"name": "Paladin Imperial Guard",
+		"unitType": "Melee",
+		"uniqueTo": "Great Britain",
+		"replaces": "Musketman",
+		"movement": 2,
+		"strength": 36,
+		"cost": 170,
+		"requiredTech": "Gunpowder",
+		"promotions": ["Medic I"],
+		"uniques": ["[+15]% Strength for adjacent units"]
+	},
+	{
+		"name": "Hussar Sky-Raiders",
+		"unitType": "Mounted",
+		"uniqueTo": "Great Britain",
+		"replaces": "Chariot Archer",
+		"movement": 5,
+		"strength": 12,
+		"rangedStrength": 16,
+		"cost": 75,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"promotions": ["Accuracy I"]
+	},
+	{
+		"name": "Einsitzer Longbowmen",
+		"unitType": "Ranged",
+		"uniqueTo": "Great Britain",
+		"replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 22,
+		"cost": 130,
+		"requiredTech": "Machinery",
+		"promotions": ["Accuracy I", "Barrage I"],
+		"uniques": ["[+1] Range"]
 	}
 ]
