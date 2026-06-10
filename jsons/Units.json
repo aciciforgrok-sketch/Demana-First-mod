@@ -3,12 +3,24 @@
 		"name": "Colonizer officer",
 		"unitType": "Land",
 		"uniqueTo": "Great Britain",
-		"replaces": "Rifleman",
-		"movement": 8,
-		"strength": 75,
-		"cost": 400,
+		"replaces": "Cavalry",
+		"movement": 5,
+		"strength": 79,
+		"cost": 600,
 		"requiredTech": "Rifling",
 		"requiredResource": "Horses",
-		"promotions": ["Blitz","Accuracy III"],
+		"promotions": ["Blitz", "Accuracy III"]
+	},
+	{
+		"name": "Elite British soldiers",
+		"unitType": "Land",
+		"uniqueTo": "Great Britain",
+		"replaces": "Rifleman",
+		"movement": 3,
+		"strength": 55,
+		"cost": 480,
+		"requiredTech": "Rifling",
+		"requiredResource": "Horses",
+		"promotions": ["Blitz", "Accuracy III", "Yamato", "Persian Immortal Ability", "Agoge", "Medic II", "Crusader"]
 	}
 ]
