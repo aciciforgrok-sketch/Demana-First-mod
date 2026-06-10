@@ -1,17 +1,14 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Colonizer officer",
+		"unitType": "Land",
+		"uniqueTo": "Great Britain",
+		"replaces": "Rifleman",
+		"movement": 8,
+		"strength": 75,
+		"cost": 400,
+		"requiredTech": "Rifling",
+		"requiredResource": "Horses",
+		"promotions": ["Blitz","Accuracy III"],
 	}
 ]
