@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Colonizer officer",
-		"unitType": "Land",
+		"unitType": "Mounted",
 		"uniqueTo": "Great Britain",
 		"replaces": "Cavalry",
 		"movement": 5,
@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Elite British soldiers",
-		"unitType": "Land",
+		"unitType": "Gunpowder",
 		"uniqueTo": "Great Britain",
 		"replaces": "Rifleman",
 		"movement": 3,
