@@ -1,13 +1,13 @@
 [
 	{
-		"name": "Great Britain",
+		"name": "Soniya",
 		"leaderName": "Shon",
 		"adjective": ["British"],
-		"startBias": ["Plains"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Thou shall rest thy feet",
-		"startIntroPart2": "hmm, a new colony to coloni- i mean befriend",
+		"startIntroPart2": "we have entered a new world",
 		
 		"declaringWar": "Prepare to be colonized",
 		"attacked": "You want to play? Very funny indeed.",
