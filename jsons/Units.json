@@ -21,6 +21,6 @@
 		"cost": 480,
 		"requiredTech": "Rifling",
 		"requiredResource": "Horses",
-		"promotions": ["Blitz", "Accuracy III", "Yamato", "Persian Immortal Ability", "Agoge", "Medic II", "Crusader"]
+		"promotions": ["Blitz", "Accuracy III", "Yamato", "Agoge", "Medic II", "Crusader"]
 	}
 ]
