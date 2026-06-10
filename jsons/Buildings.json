@@ -1,13 +1,13 @@
 [
 	{
 		"name": "House Colonizer",
-		"replaces": "Courthouse",
-		"uniqueTo": "Great Britain",
+		"replaces": "Harbor",
+		"uniqueTo": "Soniya",
 		"cost": 680,
-		"happiness": 4,
+		"happiness": 10,
 		"culture": 4,
 		"science": 4,
-		"gold": 10,
+		"gold": 1000,
 		"maintenance": 4,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Colosseum",
@@ -16,31 +16,31 @@
 	{
 		"name": "Strict grounds",
 		"replaces": "Aqueduct",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Soniya",
 		"cost": 180,
 		"hurryCostModifier": 660,
-		"happiness": 3,
+		"happiness": 300,
 		"uniques": ["[90]% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
 	},
 	{
 		"name": "East India Company",
 		"replaces": "National Treasury",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Soniya",
 		"cost": 250,
-		"gold": 8,
+		"gold": 1900,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Market",
 		"requiredTech": "Currency",
 		"uniques": [
 			"+[2] Gold from all Trade Routes",
-			"[+15]% Gold in this city"
+			"[+95]% Gold in this city"
 		]
 	},
 	{
 		"name": "Royal Navy Dockyard",
 		"replaces": "Harbor",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Soniya",
 		"cost": 120,
 		"production": 45,
 		"gold": 5,
@@ -54,7 +54,7 @@
 	{
 		"name": "Imperial Granary",
 		"replaces": "Garden",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Soniya",
 		"cost": 1500,
 		"food": 75,
 		"maintenance": 1,
@@ -64,7 +64,7 @@
 	{
 		"name": "Royal Garrison Walls",
 		"replaces": "Castle",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Soniya",
 		"cost": 175,
 		"cityHealth": 160,
 		"cityDefense": 35,
@@ -73,7 +73,7 @@
 	{
 		"name": "Anglican Parish",
 		"replaces": "Shrine",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Soniya",
 		"cost": 40,
 		"faith": 2,
 		"culture": 1,
@@ -83,7 +83,7 @@
 	{
 		"name": "Grand Cathedral",
 		"replaces": "Temple",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Soniya",
 		"cost": 170,
 		"faith": 3,
 		"culture": 2,
@@ -93,11 +93,30 @@
 	},
 	{
 		"name": "Chartered Market",
-		"replaces": "Market",
+		"replaces": "Bank",
+		"uniqueTo": "Soniya",
+		"cost": 300,
+		"gold": 85,
+		"requiredTech": "banking",
+		"uniques": ["[+50]% Gold in this city", "[+5 Gold] from [Oasis] Tiles"]
+	},
+	{
+		"name": "Imperial War College",
+		"replaces": "Military Academy",
 		"uniqueTo": "Great Britain",
 		"cost": 300,
-		"gold": 15,
-		"requiredTech": "Currency",
-		"uniques": ["[+30]% Gold in this city", "[+1 Gold] from [Oasis] Tiles"]
+		"production": 3,
+		"maintenance": 3,
+		"requiredBuilding": "Armory",
+		"requiredTech": "Military Science",
+		"uniques": [
+			"[+15]% Strength for [Military] units",
+			"New military units start with [+15] XP",
+			"[+25]% Production when constructing [Military] units <in this city>"
+			},
+	        {
+
+
+
 	}
 ]
