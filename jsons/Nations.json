@@ -2,7 +2,7 @@
 	{
 		"name": "Soniya",
 		"leaderName": "Great Godkin shan",
-		"adjective": ["British"],
+		"adjective": ["Soniyan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
@@ -15,16 +15,9 @@
 		"introduction": "A new colony!?.",
 		
 		"neutralHello": "Hello Barbarian",
-		//"neutralLetsHearIt": ["hm interesting.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","As a God i refuse."],
-		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
 
 		"hateHello": "Do you declare death for a second time?",
-		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
 		
-		//"afterPeace": "Very well, all that fighting was exhausting anyways, wise choice.",
 		"tradeRequest": "We bestow you the honor of this trade offer.",
 		"denounced": "The accusations of primitive lifeforms are beneath us.",
 		"declaringfriendship": "Let us become like friends!",
