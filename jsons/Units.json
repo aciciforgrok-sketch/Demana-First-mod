@@ -77,32 +77,6 @@
     ]
   },
   {
-    "name": "Soniyan Foundry Worker",
-    "unitType": "Civilian",
-    "replaces": "Worker",
-    "uniqueTo": "Soniya",
-    "movement": 4,
-    "cost": 370,
-    "uniques": [
-      "Can repair improvements",
-      "Can construct [All] improvements",
-      "Improvement construction speed [+[100]]%"
-    ]
-  },
-  {
-    "name": "Founder",
-    "unitType": "Civilian",
-    "replaces": "Settler",
-    "uniqueTo": "Soniya",
-    "movement": 3,
-    "cost": 106,
-    "uniques": [
-      "Founds a new City",
-      "Excess Food converted to Production when constructing this unit",
-      "[+2] Population in a newly founded city"
-    ]
-  },
-  {
     "name": "Supershan",
     "unitType": "Civilian",
     "replaces": "Great General",
