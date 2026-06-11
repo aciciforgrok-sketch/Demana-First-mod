@@ -1,122 +1,72 @@
 [
-	{
-		"name": "House Colonizer",
-		"replaces": "Harbor",
-		"uniqueTo": "Soniya",
-		"cost": 680,
-		"happiness": 10,
-		"culture": 4,
-		"science": 4,
-		"gold": 1000,
-		"maintenance": 4,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Compass"
-	},
-	{
-		"name": "Strict grounds",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Soniya",
-		"cost": 180,
-		"hurryCostModifier": 660,
-		"happiness": 300,
-		"uniques": ["[90]% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	},
-	{
-		"name": "East India Company",
-		"replaces": "National Treasury",
-		"uniqueTo": "Soniya",
-		"cost": 250,
-		"gold": 1900,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Market",
-		"requiredTech": "Currency",
-		"uniques": [
-			"+[2] Gold from all Trade Routes",
-			"[+95]% Gold in this city"
-		]
-	},
-	{
-		"name": "Royal Navy Dockyard",
-		"replaces": "Harbor",
-		"uniqueTo": "Soniya",
-		"cost": 120,
-		"production": 45,
-		"gold": 5,
-		"maintenance": 4,
-		"requiredTech": "Compass",
-		"uniques": [
-			"New water units start with [+15] XP",
-			"[+15]% Production when constructing [Water] units <in this city>"
-		]
-	},
-	{
-		"name": "Imperial Granary",
-		"replaces": "Garden",
-		"uniqueTo": "Soniya",
-		"cost": 1500,
-		"food": 75,
-		"maintenance": 1,
-		"requiredTech": "Theology",
-		"uniques": ["[+1 Food] from [Wheat] Tiles", "[+1 Food] from [Deer] Tiles", "[+1 Food] from [Banana] Tiles"]
-	},
-	{
-		"name": "Royal Garrison Walls",
-		"replaces": "Castle",
-		"uniqueTo": "Soniya",
-		"cost": 175,
-		"cityHealth": 160,
-		"cityDefense": 35,
-		"requiredTech": "Masonry"
-	},
-	{
-		"name": "Anglican Parish",
-		"replaces": "Shrine",
-		"uniqueTo": "Soniya",
-		"cost": 40,
-		"faith": 2,
-		"culture": 1,
-		"maintenance": 1,
-		"requiredTech": "Pottery"
-	},
-	{
-		"name": "Grand Cathedral",
-		"replaces": "Temple",
-		"uniqueTo": "Soniya",
-		"cost": 170,
-		"faith": 3,
-		"culture": 2,
-		"maintenance": 2,
-		"requiredBuilding": "Anglican Parish",
-		"requiredTech": "Philosophy"
-	},
-	{
-		"name": "Chartered Market",
-		"replaces": "Bank",
-		"uniqueTo": "Soniya",
-		"cost": 300,
-		"gold": 85,
-		"requiredTech": "banking",
-		"uniques": ["[+50]% Gold in this city", "[+5 Gold] from [Oasis] Tiles"]
-	},
-	{
-		"name": "Imperial War College",
-		"replaces": "Military Academy",
-		"uniqueTo": "Great Britain",
-		"cost": 300,
-		"production": 3,
-		"maintenance": 3,
-		"requiredBuilding": "Armory",
-		"requiredTech": "Military Science",
-		"uniques": [
-			"[+15]% Strength for [Military] units",
-			"New military units start with [+15] XP",
-			"[+25]% Production when constructing [Military] units <in this city>"
-			},
-	        {
-
-
-
-	}
+  {
+    "name": "Shrine of the Solar Avatar",
+    "replaces": "Shrine",
+    "uniqueTo": "Soniya",
+    "cost": 40,
+    "uniques": ["[+2 Faith, +1 Culture]", "[+15]% Production when constructing [Melee] units in this city"]
+  },
+  {
+    "name": "Olympic Training Grounds",
+    "replaces": "Barracks",
+    "uniqueTo": "Soniya",
+    "cost": 75,
+    "uniques": ["[+15] XP for Land Units", "[+1 Production, +1 Culture]", "New units gain the [Shock I] promotion"]
+  },
+  {
+    "name": "Great Guard Bastion",
+    "replaces": "Walls",
+    "uniqueTo": "Soniya",
+    "cost": 75,
+    "uniques": ["[+10] City Defense", "[+100] City HP", "Enemy units ending their turn adjacent to this city lose [10] HP"]
+  },
+  {
+    "name": "Oracle of Athena",
+    "replaces": "Library",
+    "uniqueTo": "Soniya",
+    "cost": 75,
+    "uniques": ["[+1 Science] per [2] Citizens in this city", "[+2 Culture, +2 Faith]"]
+  },
+  {
+    "name": "Amphitheater of Legends",
+    "replaces": "Amphitheater",
+    "uniqueTo": "Soniya",
+    "cost": 100,
+    "uniques": ["[+3 Culture]", "[+10]% Culture in this city"]
+  },
+  {
+    "name": "Temple of Zeus’s Bolt",
+    "replaces": "Temple",
+    "uniqueTo": "Soniya",
+    "cost": 100,
+    "uniques": ["[+4 Faith]", "[+35]% Ranged Attack Strength of the city", "New Ranged units trained in this city gain [+7] Range"]
+  },
+  {
+    "name": "Forge of Mount Olympus",
+    "replaces": "Armory",
+    "uniqueTo": "Soniya",
+    "cost": 160,
+    "uniques": ["[+130] XP for Land Units", "[+10]% Production when constructing [Melee] units in this city"]
+  },
+  {
+    "name": "Palace of Strategy",
+    "replaces": "Castle",
+    "uniqueTo": "Soniya",
+    "cost": 160,
+    "uniques": ["[+25] City Defense", "[+125] City HP"]
+  },
+  {
+    "name": "Divine Treasury of Soniya",
+    "replaces": "Bank",
+    "uniqueTo": "Soniya",
+    "cost": 250,
+    "uniques": ["[+85]% Gold", "[+90 Gold]"]
+  },
+  {
+    "name": "Pantheon of the Demigods",
+    "replaces": "Arsenal",
+    "uniqueTo": "Soniya",
+    "cost": 350,
+    "uniques": ["[+25] City Defense", "[+1 Happiness]", "[+25]% Combat Strength for all friendly units within [4] tiles of this city"]
+  }
 ]
