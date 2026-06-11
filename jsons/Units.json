@@ -1,102 +1,77 @@
 [
-	{
-		"name": "Knight Legionaries",
-		"unitType": "Mounted",
-		"uniqueTo": "Soniya",
-		"replaces": "Cavalry",
-		"movement": 5,
-		"strength": 79,
-		"cost": 600,
-		"requiredTech": "Rifling",
-		"requiredResource": "Iron",
-		"promotions": ["Blitz", "Formation II", "Accuracy III"]
-	},
-	{
-		"name": "Legenknight",
-		"unitType": "Gunpowder",
-		"uniqueTo": "Great Britain",
-		"replaces": "Rifleman",
-		"movement": 4,
-		"strength": 85,
-		"cost": 1580,
-		"requiredTech": "Rifling",
-		"requiredResource": "Iron",
-		"promotions": ["Blitz", "Accuracy III", "Yamato", "Agoge", "Medic II", "Crusader"]
-	},
-	{
-		"name": "Landsknecht Vanguard",
-		"unitType": "Melee",
-		"uniqueTo": "Great Britain",
-		"replaces": "Pikeman",
-		"movement": 2,
-		"strength": 25,
-		"cost": 110,
-		"requiredTech": "Civil Service",
-		"promotions": ["Shock I"],
-		"uniques": ["Earns [100]% of defeated units' [Strength] as [Gold]"]
-	},
-	{
-		"name": "Teutonic Crusader",
-		"unitType": "Melee",
-		"uniqueTo": "Great Britain",
-		"replaces": "Longswordsman",
-		"movement": 2,
-		"strength": 30,
-		"cost": 260,
-		"requiredTech": "Steel",
-		"requiredResource": "Iron",
-		"promotions": ["Drill I", "Crusader"],
-		"uniques": ["[+20]% Strength <when attacking>"]
-	},
-	{
-		"name": "Black Brunswickers",
-		"unitType": "Mounted",
-		"uniqueTo": "Great Britain",
-		"replaces": "Lancer",
-		"movement": 4,
-		"strength": 44,
-		"cost": 200,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"promotions": ["Blitz"],
-		"uniques": ["Generates [Great General] [50]% faster"]
-	},
-	{
-		"name": "Paladin Imperial Guard",
-		"unitType": "Melee",
-		"uniqueTo": "Great Britain",
-		"replaces": "Musketman",
-		"movement": 2,
-		"strength": 36,
-		"cost": 170,
-		"requiredTech": "Gunpowder",
-		"promotions": ["Medic I"],
-		"uniques": ["[+15]% Strength for adjacent units"]
-	},
-	{
-		"name": "Hussar Sky-Raiders",
-		"unitType": "Mounted",
-		"uniqueTo": "Great Britain",
-		"replaces": "Chariot Archer",
-		"movement": 9,
-		"strength": 12,
-		"rangedStrength": 16,
-		"cost": 75,
-		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
-		"promotions": ["Accuracy I"]
-	},
-	{
-		"name": "Einsitzer Longbowmen",
-		"unitType": "Ranged",
-		"uniqueTo": "Great Britain",
-		"replaces": "Crossbowman",
-		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 22,
-		"cost": 130,
-		"requiredTech": "Machinery",
-		"promotions": ["Accuracy I", "Barrage I"],
-		"uniques": ["[+1] Range"]
-	}
+  {
+    "name": "Barbaric Peasant of Olympia",
+    "unitType": "Melee",
+    "replaces": "Warrior",
+    "uniqueTo": "Soniya",
+    "movement": 2,
+    "strength": 10,
+    "cost": 40,
+    "uniques": ["Cannot be upgraded", "[+25]% Combat Strength when damaged"]
+  },
+  {
+    "name": "Mortal Guard of Olympia",
+    "unitType": "Melee",
+    "replaces": "Spearman",
+    "uniqueTo": "Soniya",
+    "movement": 2,
+    "strength": 15,
+    "cost": 56,
+    "uniques": ["Cannot be upgraded", "[+100]% Combat Strength vs Mounted units"]
+  },
+  {
+    "name": "Olympian Great Guard",
+    "unitType": "Melee",
+    "replaces": "Swordsman",
+    "uniqueTo": "Soniya",
+    "movement": 2,
+    "strength": 19,
+    "cost": 75,
+    "uniques": ["Cannot be upgraded", "[+50]% Combat Strength vs Cities"]
+  },
+  {
+    "name": "Elite Olympian Guard",
+    "unitType": "Melee",
+    "replaces": "Pikeman",
+    "uniqueTo": "Soniya",
+    "movement": 3,
+    "strength": 25,
+    "cost": 90,
+    "uniques": ["Cannot be upgraded", "Heals [10] HP if it kills a unit"]
+  },
+  {
+    "name": "Athena's Personal Elite",
+    "unitType": "Melee",
+    "replaces": "Longswordsman",
+    "uniqueTo": "Soniya",
+    "movement": 2,
+    "strength": 37,
+    "cost": 120,
+    "uniques": ["Cannot be upgraded", "Flanking bonus for this unit is doubled"]
+  },
+  {
+    "name": "Archers of Zeus",
+    "unitType": "Ranged",
+    "replaces": "Crossbowman",
+    "uniqueTo": "Soniya",
+    "movement": 3,
+    "strength": 45,
+    "rangedStrength": 18,
+    "range": 2,
+    "cost": 120,
+    "uniques": ["Cannot be upgraded", "[+1] Range when on [Hill] tiles"]
+  },
+  {
+    "name": "Supershan",
+    "unitType": "Civilian",
+    "replaces": "Great General",
+    "uniqueTo": "Soniya",
+    "movement": 4,
+    "uniques": [
+      "Can launch Golden Ages",
+      "Can construct [Citadel] improvements",
+      "All adjacent units gain [+20]% Combat Strength",
+      "Adjacent units gain [+1] Movement"
+    ]
+  }
 ]
