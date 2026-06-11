@@ -5,7 +5,7 @@
     "replaces": "Warrior",
     "uniqueTo": "Soniya",
     "movement": 2,
-    "strength": 10,
+    "strength": 11,
     "cost": 40,
     "uniques": ["Cannot be upgraded", "[+25]% Combat Strength when damaged"]
   },
@@ -15,7 +15,7 @@
     "replaces": "Spearman",
     "uniqueTo": "Soniya",
     "movement": 2,
-    "strength": 15,
+    "strength": 17,
     "cost": 56,
     "uniques": ["Cannot be upgraded", "[+100]% Combat Strength vs Mounted units"]
   },
@@ -25,7 +25,7 @@
     "replaces": "Swordsman",
     "uniqueTo": "Soniya",
     "movement": 2,
-    "strength": 19,
+    "strength": 28,
     "cost": 75,
     "uniques": ["Cannot be upgraded", "[+50]% Combat Strength vs Cities"]
   },
@@ -34,8 +34,8 @@
     "unitType": "Melee",
     "replaces": "Pikeman",
     "uniqueTo": "Soniya",
-    "movement": 3,
-    "strength": 25,
+    "movement": 2,
+    "strength": 26,
     "cost": 90,
     "uniques": ["Cannot be upgraded", "Heals [10] HP if it kills a unit"]
   },
@@ -45,7 +45,7 @@
     "replaces": "Longswordsman",
     "uniqueTo": "Soniya",
     "movement": 2,
-    "strength": 37,
+    "strength": 61,
     "cost": 120,
     "uniques": ["Cannot be upgraded", "Flanking bonus for this unit is doubled"]
   },
@@ -54,19 +54,60 @@
     "unitType": "Ranged",
     "replaces": "Crossbowman",
     "uniqueTo": "Soniya",
-    "movement": 3,
-    "strength": 45,
-    "rangedStrength": 18,
+    "movement": 2,
+    "strength": 13,
+    "rangedStrength": 48,
     "range": 2,
     "cost": 120,
     "uniques": ["Cannot be upgraded", "[+1] Range when on [Hill] tiles"]
+  },
+  {
+    "name": "Noah's Raven",
+    "unitType": "Scout",
+    "replaces": "Scout",
+    "uniqueTo": "Soniya",
+    "movement": 7,
+    "strength": 1,
+    "cost": 25,
+    "uniques": [
+      "Cannot be upgraded",
+      "Barbarians will not attack this unit",
+      "[+8] Visibility Range",
+      "Ignores terrain cost"
+    ]
+  },
+  {
+    "name": "Soniyan Foundry Worker",
+    "unitType": "Civilian",
+    "replaces": "Worker",
+    "uniqueTo": "Soniya",
+    "movement": 4,
+    "cost": 370,
+    "uniques": [
+      "Can repair improvements",
+      "Can construct [All] improvements",
+      "Improvement construction speed [+[100]]%"
+    ]
+  },
+  {
+    "name": "Founder",
+    "unitType": "Civilian",
+    "replaces": "Settler",
+    "uniqueTo": "Soniya",
+    "movement": 3,
+    "cost": 106,
+    "uniques": [
+      "Founds a new City",
+      "Excess Food converted to Production when constructing this unit",
+      "[+2] Population in a newly founded city"
+    ]
   },
   {
     "name": "Supershan",
     "unitType": "Civilian",
     "replaces": "Great General",
     "uniqueTo": "Soniya",
-    "movement": 4,
+    "movement": 5,
     "uniques": [
       "Can launch Golden Ages",
       "Can construct [Citadel] improvements",
