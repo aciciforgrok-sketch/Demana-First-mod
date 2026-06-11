@@ -1,22 +1,22 @@
 [
 	{
 		"name": "Soniya",
-		"leaderName": "Shon",
+		"leaderName": "Great Godkin shan",
 		"adjective": ["British"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Thou shall rest thy feet",
+		"startIntroPart1": "My children..",
 		"startIntroPart2": "we have entered a new world",
 		
-		"declaringWar": "Prepare to be colonized",
+		"declaringWar": "Prepare to face death",
 		"attacked": "You want to play? Very funny indeed.",
 		"defeated": "It's time for us...",
 		"introduction": "A new colony!?.",
 		
 		"neutralHello": "Hello Barbarian",
 		//"neutralLetsHearIt": ["hm interesting.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","As a king i refuse."],
+		//"neutralNo": ["We absolutely refuse.","No!","As a God i refuse."],
 		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
 
 		"hateHello": "Do you declare death for a second time?",
@@ -33,7 +33,7 @@
 		"innerColor": [255,200,200],
 		"uniques": ["Allows purchasing of tiles", "+[1] Sight for land Military units"],
 		"cities": ["Wessex","Arsecton","Old rome","Imphet","Old persia","Old Macedonia","Great old rome","old sparta","Trasicans",
-			"Phulnoith","Creved","irqen","grax","Threqals","Bhilmuk","Mazea","Zomirs","Drorkrex","Honkrath",
+			"Phulnoith","Oden","irqen","grax","Threqals","Bhilmuk","Mazea","Zomirs","Drorkrex","Honkrath",
 			"Zulgra","Vahars","Crindith","Raavraes","Bhoknais","Qho'Qru","Dateatz","Elnad","Izien","ol'Ell",
 			"Dhihien","Naquiel","Ugneon","Straquks","Nulptr","Ohfahl"]
 	}
